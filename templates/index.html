@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker | Smart & Easy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Phosphor Icons for modern SVG icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">AttTracker</div>
+        <div class="nav-links">
+            <a href="#">Features</a>
+            <a href="#">How it works</a>
+            <a href="#">Pricing</a>
+        </div>
+        <button class="btn-primary">Get Started</button>
+    </nav>
+
+    <header class="hero">
+        <h1>Track Attendance<br>Like Needs</h1>
+        <p>The most intuitive and beautiful way to manage attendance for schools, companies, and events. Real-time
+            tracking with a premium experience.</p>
+        <button class="btn-primary">Start Tracking Now</button>
+    </header>
+
+    <section class="features">
+        <div class="feature-card">
+            <i class="ph ph-chart-bar feature-icon"></i>
+            <h3>Real-time Analytics</h3>
+            <p>Get instant insights into attendance patterns with beautiful, interactive charts and data visualizations.
+            </p>
+        </div>
+        <div class="feature-card">
+            <i class="ph ph-users feature-icon"></i>
+            <h3>Seamless Management</h3>
+            <p>Easily manage students, employees, or attendees with our intuitive dashboard designed for efficiency.</p>
+        </div>
+        <div class="feature-card">
+            <i class="ph ph-shield-check feature-icon"></i>
+            <h3>Secure & Reliable</h3>
+            <p>Your data is encrypted and backed up daily. We prioritize privacy and security above everything else.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Attendance Tracker. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
